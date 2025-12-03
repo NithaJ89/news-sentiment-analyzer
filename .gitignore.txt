@@ -1,0 +1,17 @@
+# Ignore Python environment files
+__pycache__/
+.venv/
+.env
+
+# Ignore configuration files with credentials
+config.ini
+secrets.py
+
+# AWS configuration files (especially important!)
+.aws/
+
+# Large or unnecessary files
+*.log
+
+# Docker/ECS files
+target/
